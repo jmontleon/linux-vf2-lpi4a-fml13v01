@@ -36,7 +36,7 @@ struct inno_hdmi_plat_data {
 
 	/* Platform-specific mode validation*/
 	enum drm_mode_status (*mode_valid)(struct drm_connector *connector,
-					   struct drm_display_mode *mode);
+					   const struct drm_display_mode *mode);
 	/* Platform-specific encoder helper funcs*/
 	const struct drm_encoder_helper_funcs *helper_private;
 

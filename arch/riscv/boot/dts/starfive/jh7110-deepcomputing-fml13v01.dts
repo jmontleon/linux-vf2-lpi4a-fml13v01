@@ -4,7 +4,7 @@
  */
 
 /dts-v1/;
-#include "jh7110-common.dtsi"
+#include "jh7110-common-fml13v01.dtsi"
 
 / {
 	model = "DeepComputing FML13V01";
